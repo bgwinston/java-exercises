@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Area {
     public static void main(String[] args) {
-        Scanner radius= new Scanner(System.in);
-        System.out.println("What is the radius?");
-        int radius1= radius.nextInt();
-        double area= 3.14 * radius1 *radius1;
+        Scanner radius= new Scanner(System.in);   //Create Scanner Object
+        System.out.println("What is the radius?");  //output for user
+        int radius1= radius.nextInt();  //read user input
+        double area= 3.14 * radius1 *radius1;   //calculate area
         System.out.println("The area of the circle with a radius of " + radius1 + " is " + area);
     }
 }
